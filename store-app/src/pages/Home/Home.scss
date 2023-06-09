@@ -1,0 +1,36 @@
+.home{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .table{
+        width: 100%;
+        height: auto;
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            background-color: green;
+            color: white;
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+            tbody{
+                img{
+                    width: 70px;
+                    height: 70px;
+                    object-fit: contain;
+                }
+            }
+          }
+          
+          
+    }
+}
